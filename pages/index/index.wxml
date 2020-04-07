@@ -1,0 +1,182 @@
+<!--index.wxml-->
+<view class="index-container">
+
+  <search></search>
+
+  <view class="index-swiper"> 
+      <swiper autoplay indicator-dots circular indicator-active-color="#ee6d35">
+          <!-- <swiper-item wx:for="{{swiperList}}" wx:key="{{good_id}}">
+                <image mode="widthFix" src="{{item.image_src}}"></image>
+          </swiper-item> -->
+            <swiper-item >
+                <image mode="widthFix" src="/img/pi.png"></image>
+            </swiper-item>
+            <swiper-item >
+                <image mode="widthFix" src="/img/pi.png"></image>
+            </swiper-item>
+            <swiper-item >
+                <image mode="widthFix" src="/img/pi.png"></image>
+            </swiper-item>
+      </swiper>
+  </view>
+
+  <!-- 五个 -->
+  <view class="nav-bar">
+    <navigator>
+        <image mode="widthFix" src="/img/five/hot.png"></image>
+        <text>热销排行</text>
+    </navigator>
+    <navigator>
+        <image mode="widthFix" src="/img/five/new.png"></image>
+        <text>新品上市</text>
+    </navigator>
+    <navigator>
+        <image mode="widthFix" src="/img/five/oil.png"></image>
+        <text>大米粮油</text>
+    </navigator>
+    <navigator>
+        <image mode="widthFix" src="/img/five/food.png"></image>
+        <text>食品果蔬</text>
+    </navigator>
+    <navigator>
+        <image mode="widthFix" src="/img/five/menu.png"></image>
+        <text>美食菜谱</text>
+    </navigator>
+  </view>
+
+  <!-- 限时抢购 -->
+  <view class="limit-shopping">
+    <view class="line-one">
+      <view class="one-left">
+          <image mode="widthFix"  src="/img/time.png"></image> 
+          <text>限时抢购</text>  
+      </view>
+
+      <text>距离结束仅剩 10:10:10</text>
+    </view>
+
+    <view class="line-two">
+
+        <navigator class="box">
+            <image mode="widthFix" src="/img/pi.png"></image>
+            <text>Name</text>
+            <text class="throgh">￥29.00</text>
+            <text class="txt">￥25.00</text>
+        </navigator>
+
+                <navigator class="box">
+            <image mode="widthFix" src="/img/pi.png"></image>
+            <text>Name</text>
+            <text class="throgh">￥29.00</text>
+            <text class="txt">￥25.00</text>
+        </navigator>
+                <navigator class="box">
+            <image mode="widthFix" src="/img/pi.png"></image>
+            <text>Name</text>
+            <text class="throgh">￥29.00</text>
+            <text class="txt">￥25.00</text>
+        </navigator>
+                <navigator class="box">
+            <image mode="widthFix" src="/img/pi.png"></image>
+            <text>Name</text>
+            <text class="throgh">￥29.00</text>
+            <text class="txt">￥25.00</text>
+        </navigator>
+                <navigator class="box">
+            <image mode="widthFix" src="/img/pi.png"></image>
+            <text>Name</text>
+            <text class="throgh">￥29.00</text>
+            <text class="txt">￥25.00</text>
+        </navigator>
+                <navigator class="box">
+            <image mode="widthFix" src="/img/pi.png"></image>
+            <text>Name</text>
+            <text class="throgh">￥29.00</text>
+            <text class="txt">￥25.00</text>
+        </navigator>
+    </view>
+
+  </view>
+
+  <!-- 商品 -->
+  <view class="goods-box">
+
+
+    <navigator>
+        <image mode="widthFix" src="/img/pi.png"></image>
+        <text class="name">name</text>
+        <view class="additional">
+            <view>破损包退</view> <view>包送</view>  
+        </view>
+        <view class="price"> 
+            <text class="new">￥23</text>
+            <text class="through">￥34</text>
+            <text class="pay">2012人付款</text>
+       </view>
+    </navigator>
+
+    <navigator>
+        <image mode="widthFix" src="/img/pi.png"></image>
+        <text class="name">name</text>
+        <view class="additional">
+            <view>破损包退</view> <view>包送</view>  
+        </view>
+        <view class="price"> 
+            <text class="new">￥23</text>
+            <text class="through">￥34</text>
+            <text class="pay">2012人付款</text>
+       </view>
+    </navigator>
+
+    <navigator>
+        <image mode="widthFix" src="/img/pi.png"></image>
+        <text class="name">name</text>
+        <view class="additional">
+            <view>破损包退</view> <view>包送</view>  
+        </view>
+        <view class="price"> 
+            <text class="new">￥23</text>
+            <text class="through">￥34</text>
+            <text class="pay">2012人付款</text>
+       </view>
+    </navigator>
+    <navigator>
+        <image mode="widthFix" src="/img/pi.png"></image>
+        <text class="name">name</text>
+        <view class="additional">
+            <view>破损包退</view> <view>包送</view>  
+        </view>
+        <view class="price"> 
+            <text class="new">￥23</text>
+            <text class="through">￥34</text>
+            <text class="pay">2012人付款</text>
+       </view>
+    </navigator>
+    <navigator>
+        <image mode="widthFix" src="/img/pi.png"></image>
+        <text class="name">name</text>
+        <view class="additional">
+            <view>破损包退</view> <view>包送</view>  
+        </view>
+        <view class="price"> 
+            <text class="new">￥23</text>
+            <text class="through">￥34</text>
+            <text class="pay">2012人付款</text>
+       </view>
+    </navigator>
+    <navigator>
+        <image mode="widthFix" src="/img/pi.png"></image>
+        <text class="name">name</text>
+        <view class="additional">
+            <view>破损包退</view> <view>包送</view>  
+        </view>
+        <view class="price"> 
+            <text class="new">￥23</text>
+            <text class="through">￥34</text>
+            <text class="pay">2012人付款</text>
+       </view>
+    </navigator>
+  </view>
+
+</view>
+

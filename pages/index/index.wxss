@@ -1,0 +1,138 @@
+.index-container{
+  background-color: #f0f0f0;
+}
+.index-swiper swiper{
+  height: 340rpx;  
+}
+.index-swiper swiper image{
+  width: 100%;
+}
+
+/* 五个 */
+.nav-bar{
+  background-color: #fff;
+  padding-top: 14rpx;
+  padding-bottom: 14rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-bar image{
+  width: 80rpx;
+}
+.nav-bar text{
+  font-size: 26rpx;
+}
+.nav-bar>navigator{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 限时抢购 */
+.limit-shopping{
+  width: 96%;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  padding: 14rpx 0;
+  border-radius: 10rpx;
+}
+.limit-shopping .line-one{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10rpx 10rpx 10rpx;
+}
+.limit-shopping .line-one .one-left{
+  display: flex;
+  text-align: center;
+}
+.limit-shopping .line-one image{
+  width: 40rpx;
+
+  margin-right: 8rpx;
+}
+.limit-shopping .line-one text{
+  color: #fd5a31;
+}
+
+.limit-shopping .line-two{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+.limit-shopping .line-two .box{
+  background-color: #fff;
+  width: 200rpx;
+  display: flex;
+  flex-direction: column;
+  margin: 16rpx;
+  border-radius: 0;
+}
+.limit-shopping .line-two .box image{
+  width:100%;
+  border-radius: 10rpx;
+}
+
+.limit-shopping .line-two .box text.throgh{
+  text-decoration: line-through;
+  font-size: 26rpx;
+  color: #999;
+}
+.limit-shopping .line-two .box text.txt{
+  font-size: 34rpx;
+  color: #ee6d35;
+}
+
+/* 商品 */
+.goods-box{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding:0 16rpx;
+  margin-top: 16rpx;
+  justify-content: space-between;
+}
+.goods-box navigator{
+  width: 49%;
+  border-radius: 10rpx;
+  background-color: #fff;
+  padding-bottom: 16rpx;
+  margin-bottom: 16rpx;
+}
+.goods-box navigator image{
+  width: 100%;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+}
+.goods-box navigator .name{
+  font-size: 42rpx;
+}
+.goods-box navigator .additional{
+  display: flex;
+  margin: 8rpx 0;
+}
+.goods-box navigator .additional view{
+  padding: 0 16rpx;
+  margin-right: 16rpx;
+  border: 1rpx solid #ee6d35;
+  border-radius: 16rpx;
+  font-size: 24rpx;
+  color: #ee6d35;
+}
+.goods-box navigator .price text{
+  margin-right: 24rpx;
+}
+.goods-box navigator .price .new{
+  color: #ee6d35;
+  font-size: 36rpx;
+}
+.goods-box navigator .price .through{
+  text-decoration: line-through;
+  font-size: 28rpx;
+  color: #999;
+}
+.goods-box navigator .price .pay{
+  font-size: 28rpx;
+  color: #999;
+}

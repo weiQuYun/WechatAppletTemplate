@@ -1,0 +1,23 @@
+/* component/search/search.wxss */
+.search-input{
+  height: 60rpx;
+  padding: 10rpx;
+  background: #ee6d35;
+  display: flex;
+  justify-content: space-between;
+}
+.search-input image{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.search-input navigator.navi{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background: #fff;
+  border-radius: 40rpx;
+  color: #666;
+}

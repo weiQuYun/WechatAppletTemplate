@@ -1,0 +1,10 @@
+<!--component/search/search.wxml-->
+<view class="search-input">
+  <image mode="widthFix" src="/img/scan.png"></image>
+  
+  <navigator class="navi"  open-type="navigate" url="/pages/search/index" >搜索</navigator>
+  
+  <navigator>
+    <image src="/img/information.png"></image>
+  </navigator>
+</view>
